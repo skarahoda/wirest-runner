@@ -4,7 +4,8 @@
   "description": "Runner process for WIREST",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test.js",
+    "start": "while true; do sleep 10000 && node index;  done
   },
   "repository": {
     "type": "git",
